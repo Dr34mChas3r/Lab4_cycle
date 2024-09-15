@@ -1,24 +1,23 @@
-// Напишіть програму для обчислення суми арифметичної прогресії з першого до останнього елемента, використовуючи цикл.
-// дано element1, element2
-// знайти сума арефметичної прогресії;
-//  cin >> 
-// cout <<
 
 #include <iostream>
-
 using namespace std;
 
 int main() {
-	double element1, element2;
-	
-	cout << "Введіть значення першого елемента" << endl;
-	cin >> element1;
-	cout << "Введіть значення другого елемента" << endl;
-	cin >> element2;
+    double a1, difference, count;
+    double sum = 0;
 
-	double difference = element2 - element1;
+    cout << "Введіть перший член прогресії: ";
+    cin >> a1;
+    cout << "Введіть різницю прогресії: ";
+    cin >> difference;
+    cout << "Введіть кількість членів: ";
+    cin >> count;
 
-	for (int i = element1; i <= element2;i++) {
-		cout << i << endl;
-	}
+    for (double i = 0; i <= count; ++i) {
+        // придумати робочу формулу xD
+    } 
+
+    cout << "Сума арифметичної прогресії: " << sum << endl;
+
+    return 0;
 }
