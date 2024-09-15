@@ -13,11 +13,10 @@ int main() {
     cout << "Введіть кількість членів: ";
     cin >> count;
 
-    for (double i = 0; i <= count; ++i) {
-        // придумати робочу формулу xD
+    for (double i = 1; i <= count; ++i) {
+        sum += a1 + difference * (i - 1);
     } 
 
     cout << "Сума арифметичної прогресії: " << sum << endl;
 
-    return 0;
 }
