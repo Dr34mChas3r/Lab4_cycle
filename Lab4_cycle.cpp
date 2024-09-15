@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+
     double a1, difference, count;
     double sum = 0;
 
